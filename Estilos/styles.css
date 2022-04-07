@@ -143,6 +143,57 @@
     background: rgba(100, 200, 255, 0.85);
     border-radius: 29px;
 }
+.Barradenavegacionlistaplanes {
+    text-align: center;
+    background-color: #FFE0B5;
+    height: 51px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.banner-home{
+    background: url('../Imagenes/Atomo_Imagen_Fondo\ planes_Planes\ pareja_Default.png');
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagen-listaplanes{
+    width: 290px;
+    border-radius: 10px;
+    padding: 2px;
+}
+.RecuadroMV{
+    /*text-align: center;*/
+    background-color: #fff3e3;
+    border-color: #757575;
+    width: 20px;
+    height: 230px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-top: 10%;
+}
+
+.RecuadroNosotros{
+    background-color: #fff3e3;
+    border-color: #e0e0e0;
+    width: 20px;
+    height: 230px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-top: 5.5%;
+}
+.imagenes-quienessomos{
+    border-radius: 20px;
+    padding: 2px;
+}
+
+
 
 @media only screen and (min-width: 992px) {
 
