@@ -216,6 +216,14 @@
     bottom: 20%;
 }
 
+.CuadroTipoPlan{
+    size: relative;
+    height: 100%;
+    border: 6px solid #9BE1F8;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
 
 @media only screen and (min-width: 992px) {
 
