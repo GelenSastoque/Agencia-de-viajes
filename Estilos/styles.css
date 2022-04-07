@@ -11,6 +11,9 @@
     font-style: normal;
 }
 
+* {
+    padding: 0px;
+}
 
 .logo {
     position: absolute;
