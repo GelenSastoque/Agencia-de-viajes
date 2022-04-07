@@ -12,7 +12,7 @@
 }
 
 * {
-    margin: 8px;
+    padding: 0px;
 }
 
 .logo {
@@ -198,7 +198,13 @@
     padding: 2px;
 }
 
-
+.CuadroTipoPlan{
+    size: relative;
+    border: 6px solid #9BE1F8;
+    box-sizing: border-box;
+    border-radius: 15px;
+    height: 100%;
+}
 
 @media only screen and (min-width: 992px) {
 
