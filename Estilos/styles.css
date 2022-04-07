@@ -103,7 +103,13 @@
     color: #898989;
 }
 
-
+.Barratextoindex{
+    position: relative;
+    height: 15%;
+    top: -100px;
+    background: rgba(100, 200, 255, 0.85);
+    border-radius: 29px;
+}
 
 @media only screen and (min-width: 992px) {
 
