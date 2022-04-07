@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 @font-face {
     font-family: 'travel_soulmates_weightRg';
@@ -28,7 +29,8 @@
     font-size: 48px;
     font-weight: 400;
     color: #006E98;
-    padding-top: 20px;
+    padding-top: 40px;
+    padding-left: 20px;
 }
 
 .row {
@@ -48,6 +50,32 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     padding: 5px;
+}
+.Textomedium{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 5px;
+}
+.Textomediumgris{
+    
+    color:#707070;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 5px;
+}
+.inputfielddatos{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #898989;
+}
+.inputfielddatos:focus-visible{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #898989;
 }
 .Botongeneral{
     background-color: #FFB5B5;
@@ -75,9 +103,6 @@
     font-weight:bold
   }
 
-
-
-
 .Botonvisualizacion{
     background-color: #C0C0C0F5;
     position: absolute;
@@ -102,6 +127,14 @@
     border:none;
     color: #898989;
 }
+.footer{
+    background-color:#6A9FB0;
+    height: 225px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
 
 .Barratextoindex{
     position: relative;
