@@ -78,7 +78,7 @@
     border-bottom: 1px solid #898989;
 }
 .Botongeneral{
-    background-color: #FFB5B5;
+   
     position: absolute;
     height: 31px;
     border-radius:20px;
@@ -86,13 +86,18 @@
 }
 
 .Botongeneral:hover {
-    background-color: #FF9494;
+
     position: absolute;
     height: 31px;
     border-radius:20px;
     border:none;
   }
-
+.Botongeneral, .BotonNavegacion:hover{
+    background-color: #FFB5B5 ;
+}
+.Botongeneral:hover, .BotonNavegacion:active{
+    background-color: #FF9494;
+}
 .Botongeneral:active {
     background-color: #FD7575;
     position: absolute;
@@ -156,7 +161,7 @@
 
 .banner-home{
     background: url('../Imagenes/Atomo_Imagen_Fondo\ planes_Planes\ pareja_Default.png');
-    height: 450px;
+    height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -271,7 +276,6 @@
     }
     
     .BotonNavegacion:hover{
-        background-color: #FFB5B5;
         position:relative;
         height: 100%;
         border-radius:15px;
@@ -288,7 +292,6 @@
     }
     
     .BotonNavegacion:active{
-        background-color: #FF9494;
         position:relative;
         height: 100%;
         border-radius:15px;
