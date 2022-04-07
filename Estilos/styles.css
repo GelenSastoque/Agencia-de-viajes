@@ -11,9 +11,6 @@
     font-style: normal;
 }
 
-* {
-    margin: 8px;
-}
 
 .logo {
     position: absolute;
@@ -172,7 +169,6 @@
     padding: 2px;
 }
 .RecuadroMV{
-    /*text-align: center;*/
     background-color: #fff3e3;
     border-color: #757575;
     width: 20px;
@@ -191,13 +187,31 @@
     padding: 5px;
     border-radius: 20px;
     margin-left: 2%;
-    margin-top: 5.5%;
+    margin-top: 5.2%;
 }
 .imagenes-quienessomos{
+    position:center;
+    width: 290px;
     border-radius: 20px;
     padding: 2px;
 }
-
+.imagen-nuetroequipo{
+    width: 200px;
+    border-radius: 20px;
+    padding: 2px;
+}
+.posicion-banner{
+    height: 519px;
+    position: relative;
+    display: block;
+}
+.ubicacion-texto{
+    position: absolute;
+    float: right;
+    left:45%;
+    right: 0;
+    bottom: 20%;
+}
 
 
 @media only screen and (min-width: 992px) {
