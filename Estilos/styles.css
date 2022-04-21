@@ -45,11 +45,30 @@
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
+.Textotituloboldblanco {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+}
 .Textogeneralsemibold{
     font-family: 'Fira Sans Condensed', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     padding: 5px;
+}
+.Textogeneralsemiboldblanco{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 5px;
+    color: white;
+}
+.Textogeneralsemiboldazul{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 5px;
+    color: #006E98;
 }
 .Textomedium{
     font-family: 'Fira Sans Condensed', sans-serif;
@@ -156,8 +175,13 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
-
+.footergeneral{
+    background-color:#006E98;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
 .Barratextoindex{
     position: relative;
     height: 15%;
@@ -177,7 +201,7 @@
 }
 
 .banner-home{
-    background: url('../Imagenes/Atomo_Imagen_Fondo\ planes_Planes\ pareja_Default.png');
+    background: url('../Imagenes/Atomo_Imagen_Fondo\ planes_Planes\ pareja_Default\ azul.png');
     height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -187,6 +211,14 @@
     width: 290px;
     border-radius: 10px;
     padding: 2px;
+}
+.lineadivision{
+    align-content: center;
+    background-color: #75757563;
+    width: 90%;
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 .RecuadroMV{
     background-color: #fff3e3;
