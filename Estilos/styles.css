@@ -206,10 +206,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.Placeright{
-    float:right;
-    align-items: right;
-}
+
 .imagen-listaplanes{
     width: 290px;
     border-radius: 10px;
@@ -505,6 +502,9 @@
     }
 }
 
+.preguntadropdown{
+    border: #9BE1F8 3px;
+}
 @media only screen and (max-width: 720px) {
 
     /*SMALL*/
