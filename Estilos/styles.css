@@ -279,6 +279,20 @@
     margin-top: 15px;
     margin-bottom: 30px;
 }
+.Centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.FAQsection{
+    
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+.dropdown{
+
+}
 .preguntadropdown{
     border: #9BE1F8 3px;
     border-radius: 3px;
