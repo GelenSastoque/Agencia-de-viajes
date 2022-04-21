@@ -65,17 +65,34 @@
     font-weight: 500;
     padding: 5px;
 }
+.Textomediumblanco{
+    color: white;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 5px;
+}
 .inputfielddatos{
     border-top: none;
     border-right: none;
     border-left: none;
     border-bottom: 1px solid #898989;
+    margin-bottom: 20px;
+    margin-top:10px;
 }
 .inputfielddatos:focus-visible{
     border-top: none;
     border-right: none;
     border-left: none;
     border-bottom: 1px solid #898989;
+}
+.inputfieldmensaje{
+    border: 2px solid #FFB5B5;
+    border-radius: 10px;
+    margin: 20px;
+    width: 75%;
+    height: 65%;
+    padding: 10px;
 }
 .Botongeneral{
    
@@ -134,10 +151,10 @@
 }
 .footer{
     background-color:#6A9FB0;
-    height: 225px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -224,6 +241,12 @@
     border-radius: 15px;
 }
 
+.Campodatosuser{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
 
 @media only screen and (min-width: 992px) {
 
