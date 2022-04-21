@@ -279,7 +279,14 @@
     margin-top: 15px;
     margin-bottom: 30px;
 }
+.preguntadropdown{
+    border: #9BE1F8 3px;
+    border-radius: 3px;
+    margin-bottom: 10ps;
+    padding:10px;
+    box-shadow
 
+}
 @media only screen and (min-width: 992px) {
 
     .col-lg-1 {
@@ -502,9 +509,7 @@
     }
 }
 
-.preguntadropdown{
-    border: #9BE1F8 3px;
-}
+
 @media only screen and (max-width: 720px) {
 
     /*SMALL*/
