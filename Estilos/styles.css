@@ -241,6 +241,16 @@
     margin-left: 2%;
     margin-top: 5.2%;
 }
+.imagenenes_galeria_index{
+    position:center;
+    width: 290px;
+    height: 385px;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-bottom: 3px;
+    padding: 2px;
+}
+
 .imagenes-quienessomos{
     position:center;
     width: 290px;
