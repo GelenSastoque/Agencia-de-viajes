@@ -16,12 +16,13 @@
 }
 
 .logo {
-    position: absolute;
-    left: 0%;
+    position: relative;
+    /* left: 0%;
     right: 91.01%;
     top: 0%;
-    bottom: 30.54%;
-    background-image: "Logo.png";
+    bottom: 30.54%; */
+    /* background-image: "Logo.png"; */
+    width: 112px;
 }
 
 .Titulopagina {
@@ -338,10 +339,10 @@
     margin: 0 auto;
 }
 
-.margentb1{
+.margentb5{
     position: relative;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .margen5{
@@ -459,6 +460,15 @@
 
     .rowlg{
         display: flex;
+    }
+
+    .Titulopagina {
+        font-family: "travel_soulmates_weightRg";
+        font-size: 48px;
+        font-weight: 400;
+        color: #006E98;
+        padding-top: 40px;
+        padding-left: 20px;
     }
 }
 
@@ -658,6 +668,13 @@
         top: 50%;
         padding:3px;
         
+    }
+
+    .Titulopagina {
+        font-family: "travel_soulmates_weightRg";
+        font-size: 25px;
+        font-weight: 400;
+        color: #006E98;
     }
 }
 
