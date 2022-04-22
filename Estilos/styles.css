@@ -344,6 +344,10 @@
     margin-bottom: 1%;
 }
 
+.margen5{
+    position: relative;
+    margin: 5%;
+}
 
 @media only screen and (min-width: 992px) {
 
@@ -512,56 +516,46 @@
     .Barradenavegacion {
         text-align: center;
         background-color: #FFE0B5;
-        height: auto;
+        height: 300;
         padding: 5px;
         margin: 1px;
-        align-items: center;
-        vertical-align: middle;
         border-radius: 20px;
     }
     .BotonNavegacion{
         background-color: #ffffff00;
         position:relative;
-        height: auto;
+        height: 17%;
         border-radius:15px;
         border:none;
         font-size: 20px;
-        margin: 0;
-        top: 50%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
+        margin: 1%;
         padding:3px;
     }
     
     .BotonNavegacion:hover{
         background-color: #FFB5B5;
         position:relative;
-        height: auto;
+        height: 17%;
         border-radius:15px;
         border:none;
         color:white;
         font-weight:bold;
         font-size: 20px;
-        margin: 0;
-        top: 50%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
+        margin: 1%;
         padding:3px;
     }
     
     .BotonNavegacion:active{
         background-color: #FF9494;
         position:relative;
-        height: auto;
+        height: 17%;
         border-radius:15px;
         border:none;
         color:white;
         font-weight:bold;
         font-size: 20px;
-        margin: 0;
+        margin: 1%;
         top: 50%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
         padding:3px;
         
     }
@@ -617,6 +611,53 @@
 
     .col-sm-12 {
         width: 100%;
+    }
+
+    .Barradenavegacion {
+        text-align: center;
+        background-color: #FFE0B5;
+        height: 300;
+        padding: 5px;
+        margin: 1px;
+        border-radius: 20px;
+    }
+    .BotonNavegacion{
+        background-color: #ffffff00;
+        position:relative;
+        height: 17%;
+        border-radius:15px;
+        border:none;
+        font-size: 15px;
+        margin: 1%;
+        padding:3px;
+    }
+    
+    .BotonNavegacion:hover{
+        background-color: #FFB5B5;
+        position:relative;
+        height: 17%;
+        border-radius:15px;
+        border:none;
+        color:white;
+        font-weight:bold;
+        font-size: 15px;
+        margin: 1%;
+        padding:3px;
+    }
+    
+    .BotonNavegacion:active{
+        background-color: #FF9494;
+        position:relative;
+        height: 17%;
+        border-radius:15px;
+        border:none;
+        color:white;
+        font-weight:bold;
+        font-size: 15px;
+        margin: 1%;
+        top: 50%;
+        padding:3px;
+        
     }
 }
 
