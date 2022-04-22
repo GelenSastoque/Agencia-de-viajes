@@ -186,7 +186,7 @@
     position: relative;
     height: 15%;
     top: -100px;
-    background: rgba(100, 200, 255, 0.85);
+    background: rgba(177, 228, 255, 0.85);
     border-radius: 29px;
 }
 .Barradenavegacionlistaplanes {
@@ -321,6 +321,15 @@
     box-shadow
 
 }
+
+.centrar-vertical {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
 @media only screen and (min-width: 992px) {
 
     .col-lg-1 {
